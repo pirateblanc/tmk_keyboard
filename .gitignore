@@ -12,3 +12,5 @@ tags
 *~
 *.bak
 .DS_Store
+
+*.swp
