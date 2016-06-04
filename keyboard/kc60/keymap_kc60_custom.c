@@ -73,7 +73,7 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
    * one. Could be I did something wrong, or there are some subtle caveats that I
    * missed.
    * ,-----------------------------------------------------------.
-   * |Esc| F1| F2| F3| F4| F5| F6| F7| F8| F9|F10|F11|F12|Delete |
+   * |`  | F1| F2| F3| F4| F5| F6| F7| F8| F9|F10|F11|F12|Delete |
    * |-----------------------------------------------------------|
    * |     |Hom|Up |End|   |   |Cal|   |Ins|   |Psc|PgU|PgD|     |
    * |-----------------------------------------------------------|
@@ -85,7 +85,7 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
    * `-----------------------------------------------------------'
    */
   KEYMAP_ANSI(
-      ESC, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, DEL,  \
+      GRV, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, DEL,  \
       NO,  HOME,UP,  END, NO,  NO,  CALC,NO,  INS, NO,  PSCR,PGUP,PGDN,NO,   \
       NO,  LEFT,DOWN,RGHT,NO,  VOLD,VOLU,MUTE,NO,  NO,  HOME,END,      NO,   \
       TRNS,     MPLY,MPRV,MNXT,MSTP,FN4, FN5, FN6, NO,  NO,  NO,       NO,   \
